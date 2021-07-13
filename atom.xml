@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云游君的小站</title>
+  <icon>https://www.yunyoujun.cn/favicon.png</icon>
+  <subtitle>All at sea.</subtitle>
+  <link href="https://www.yunyoujun.cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.yunyoujun.cn/"/>
+  <updated>2021-06-27T17:29:35.000Z</updated>
+  <id>https://www.yunyoujun.cn/</id>
+  
+  <author>
+    <name>云游君</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又拍云—年轻人的第一个 CDN</title>
+    <link href="https://www.yunyoujun.cn/posts/why-i-use-upyun-cdn/"/>
+    <id>https://www.yunyoujun.cn/posts/why-i-use-upyun-cdn/</id>
+    <published>2021-05-27T13:29:35.000Z</published>
+    <updated>2021-06-27T17:29:35.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;距离上一次更新似乎又过去了很久，而我也成为了无聊的大人，被实习的工作压的喘不过气来。（此中又有不少波折，待尘埃落定，我再找机会记录它吧。）&lt;/p&gt;
+&lt;p&gt;我的青春更是早在不知何时已经结束了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;看，简单吧，谁也没有受伤的世界，达成了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href=&quot;https://console.upyun.com/register/?invite=SyeQw09Bz&quot; title=&quot;又拍云&quot; target=&quot;_blank&quot;&gt;
+  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png&quot; style=&quot;box-shadow: none;&quot;  alt=&quot;upyun&quot;&gt;
+&lt;/a&gt;
+
+&lt;p&gt;故&lt;a href=&quot;https://www.upyun.com/&quot;&gt;又拍云&lt;/a&gt;并非我的第一个 CDN，但它的确是我截至今日使用最久的 CDN。&lt;/p&gt;
+&lt;p&gt;而我相信它也是新站长值得一试的服务。&lt;/p&gt;
+&lt;p&gt;此中玄机，我们不妨先从 CDN 说起。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小安利" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E5%AE%89%E5%88%A9/"/>
+    
+    
+    <category term="CDN" scheme="https://www.yunyoujun.cn/tags/CDN/"/>
+    
+    <category term="又拍云" scheme="https://www.yunyoujun.cn/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云空调，便携小空调</title>
+    <link href="https://www.yunyoujun.cn/posts/air-conditioner/"/>
+    <id>https://www.yunyoujun.cn/posts/air-conditioner/</id>
+    <published>2021-04-17T09:18:47.000Z</published>
+    <updated>2021-04-21T09:18:47.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/YunYouJun/air-conditioner/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/YunYouJun/air-conditioner?style=social&quot; alt=&quot;GitHub Repo stars&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;❄️ 云空调，便携小空调，为你的夏日带去清凉！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这又是一个差不多两年前的坑。&lt;/p&gt;
+&lt;p&gt;那么它能做什么呢？没错，&lt;strong&gt;随时随地&lt;/strong&gt;打开空调。唯一的缺憾是，没有&lt;strong&gt;风&lt;/strong&gt;。但我们也许可以「望空调止热」。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/air-conditioner/&quot;&gt;air-conditioner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;裸机: &lt;a href=&quot;https://ac.yunyoujun.cn/&quot;&gt;云空调&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;样板房: &lt;a href=&quot;https://www.yunyoujun.cn/air-conditioner-room/&quot;&gt;空调间&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;遵从最宽松的 MIT 协议，你可以自行 &lt;code&gt;clone&lt;/code&gt; 本项目，并自定义地构建它。当然也可以通过 &lt;code&gt;iframe&lt;/code&gt; 的方式直接嵌入你的网站。&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot; data-language=&quot;html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;iframe&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;700&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://ac.yunyoujun.cn&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;iframe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;对了，最近因为小空调又火了起来。浮现出了许多去除页脚、售卖源码和冒名顶替的情况。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;MIT 协议虽然允许你以任何方式使用，但仍然规定署名作者，且原作者不承担代码使用后的风险。&lt;/p&gt;
+&lt;p&gt;当然，国内并无法律承认开源协议，所以这更像是君子协定。希望大家各自问心无愧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小项目" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="前端" scheme="https://www.yunyoujun.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="玩具" scheme="https://www.yunyoujun.cn/tags/%E7%8E%A9%E5%85%B7/"/>
+    
+    <category term="React" scheme="https://www.yunyoujun.cn/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>char-dust 一个图片转字符画的 npm 包与示例站点</title>
+    <link href="https://www.yunyoujun.cn/posts/why-make-char-dust/"/>
+    <id>https://www.yunyoujun.cn/posts/why-make-char-dust/</id>
+    <published>2021-03-12T17:08:46.000Z</published>
+    <updated>2021-03-13T18:51:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://upyun.yunyoujun.cn/images/char-dust-jashin.jpg&quot; alt=&quot;夹心酱&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如题，它的全部作用就是将图片变成字符画（又称 &lt;a href=&quot;https://zh.wikipedia.org/wiki/ASCII%E8%89%BA%E6%9C%AF&quot;&gt;ASCII 艺术&lt;/a&gt;）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/char-dust/&quot;&gt;https://github.com/YunYouJun/char-dust/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;示例站点: &lt;a href=&quot;https://www.yunyoujun.cn/char-dust/&quot;&gt;https://www.yunyoujun.cn/char-dust/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;似乎有些老生常谈，那么为什么会有它的诞生呢？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小项目" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="npm" scheme="https://www.yunyoujun.cn/tags/npm/"/>
+    
+    <category term="ascii" scheme="https://www.yunyoujun.cn/tags/ascii/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nnrm - 一个极简的 npm/yarn registry 切换管理器</title>
+    <link href="https://www.yunyoujun.cn/posts/nnrm-new-nrm/"/>
+    <id>https://www.yunyoujun.cn/posts/nnrm-new-nrm/</id>
+    <published>2021-03-05T09:57:17.000Z</published>
+    <updated>2021-03-05T09:57:17.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;nnrm 即 new nrm。&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/nnrm/&quot;&gt;https://github.com/YunYouJun/nnrm/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.v2ex.com/t/758624&quot;&gt;nnrm - 一个极简的 npm/yarn registry 切换管理器 | V2EX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一个简单的 npm/yarn registry （镜像源）切换工具&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/YunYouJun/nnrm/blob/main/README.zh-CN.md&quot;&gt;中文使用文档&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Why-new-nrm-nnrm&quot;&gt;&lt;a href=&quot;#Why-new-nrm-nnrm&quot; class=&quot;headerlink&quot; title=&quot;Why new nrm - nnrm?&quot;&gt;&lt;/a&gt;Why new nrm - nnrm?&lt;/h2&gt;&lt;p&gt;首先，我赞成重复造轮子是不好的行为。&lt;/p&gt;
+&lt;p&gt;nrm 的确使得切换更加方便，譬如我们可以简单地使用 &lt;code&gt;nrm use taobao&lt;/code&gt; 的方式切换镜像。&lt;br&gt;但是在切换镜像前，安装 nrm 本身也是一件很慢的事情，nrm 依赖了已 deprecated 的且包体较大的 &lt;code&gt;request&lt;/code&gt;，&lt;code&gt;npm&lt;/code&gt; 包，以及一些其他依赖。&lt;/p&gt;
+&lt;p&gt;而我自身至今使用过的实际只有 &lt;code&gt;nrm ls&lt;/code&gt; 与 &lt;code&gt;nrm use&lt;/code&gt; 命令而已。（偶尔可能尝试一下 nrm test 进行测速）。当然它现在也支持了自定义源的操作。&lt;/p&gt;
+&lt;p&gt;此外因为经常需要在不同的机器上操作，所以我希望它足够简洁，安装迅速，并且我不想总是看到依赖的包已 deprecated 的提示（强迫症？）。这便是它诞生的原因。&lt;/p&gt;
+&lt;p&gt;好！就是这样！更多就请见 &lt;a href=&quot;https://github.com/YunYouJun/nnrm/&quot;&gt;项目 README&lt;/a&gt; 吧！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小项目" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="npm" scheme="https://www.yunyoujun.cn/tags/npm/"/>
+    
+    <category term="镜像源" scheme="https://www.yunyoujun.cn/tags/%E9%95%9C%E5%83%8F%E6%BA%90/"/>
+    
+    <category term="工具" scheme="https://www.yunyoujun.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我打算当老师并报考教师资格证这件事</title>
+    <link href="https://www.yunyoujun.cn/diary/try-to-become-a-teacher/"/>
+    <id>https://www.yunyoujun.cn/diary/try-to-become-a-teacher/</id>
+    <published>2020-09-11T15:59:23.000Z</published>
+    <updated>2021-03-02T15:59:23.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;「关于加个引号就能变成轻小说标题这件事」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;嘛，正如 &lt;a href=&quot;https://www.yunyoujun.cn/essay/i-and-town-and-home/&quot;&gt;前文&lt;/a&gt; 所言，我确实准备报考教师证。&lt;/p&gt;
+&lt;p&gt;并立此文章为证，（&lt;del&gt;那没考上岂不是贻笑大方&lt;/del&gt;），记录一些过程（&lt;del&gt;破事水&lt;/del&gt;）。&lt;/p&gt;
+&lt;p&gt;因为标题拟的很像轻小说，并且这件事本身其实并不是什么有趣的事（&lt;del&gt;但我希望它能有趣些&lt;/del&gt;），所以我决定用我的死宅文风以轻小说的方式来记录一下。（&lt;del&gt;欢迎吐槽，但别太伤人。&lt;/del&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upyun.yunyoujun.cn/images/dont-scold-me.jpg&quot; alt=&quot;别骂了别骂了再骂人要傻了&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;内容简介&quot;&gt;&lt;a href=&quot;#内容简介&quot; class=&quot;headerlink&quot; title=&quot;内容简介&quot;&gt;&lt;/a&gt;内容简介&lt;/h2&gt;&lt;p&gt;成长的苦涩，日常的迷惘。&lt;br&gt;唯有长大方能看见的真相，让「死宅少年」偏移人生轨迹的事件……&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;家里蹲死宅少年 —— 云游君，本作的男主角。&lt;br&gt;可爱女主角 —— 暂无（&lt;del&gt;欢迎参演&lt;/del&gt;）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;云游君与并不存在的朋友们开始转动命运的齿轮。&lt;br&gt;未来又是否将就此改变。&lt;/p&gt;
+&lt;p&gt;……&lt;/p&gt;
+&lt;p&gt;成年人的青春物语开幕。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小日记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://www.yunyoujun.cn/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="轻小说" scheme="https://www.yunyoujun.cn/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/"/>
+    
+    <category term="教师" scheme="https://www.yunyoujun.cn/tags/%E6%95%99%E5%B8%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>做猪呢，最重要的是开心</title>
+    <link href="https://www.yunyoujun.cn/posts/2020-summary/"/>
+    <id>https://www.yunyoujun.cn/posts/2020-summary/</id>
+    <published>2021-02-12T13:42:43.000Z</published>
+    <updated>2021-03-02T13:42:43.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://upyun.yunyoujun.cn/images/how-to-raise-pigs.jpg&quot; alt=&quot;如何养猪&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikihow.com/%E5%85%BB%E7%8C%AA&quot;&gt;如何养猪 | wikiHow&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;养猪指南？不对，是猪的成长日志。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小日记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="年终总结" scheme="https://www.yunyoujun.cn/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="养猪" scheme="https://www.yunyoujun.cn/tags/%E5%85%BB%E7%8C%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何找到你朋友的社交账号</title>
+    <link href="https://www.yunyoujun.cn/posts/find-npy-social-account/"/>
+    <id>https://www.yunyoujun.cn/posts/find-npy-social-account/</id>
+    <published>2020-11-12T03:46:38.000Z</published>
+    <updated>2020-12-11T16:03:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/A%E9%9D%A2%E8%88%87B%E9%9D%A2&quot;&gt;A 面与 B 面&lt;/a&gt;（英语：A-side 和 B-side）是流行音乐业界术语，于 1950 年代开始常用，原本指出版的 7 英寸黑胶唱片（必须是单曲）的两面。现在 A 面和 B 面通常用来辨别歌曲的重要度——放在 A 面的歌曲为主打歌，歌手会期望这些歌经常在电台等传媒渠道曝光；放在 B 面的歌曲则属于次要或附加歌目。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前奏&quot;&gt;&lt;a href=&quot;#前奏&quot; class=&quot;headerlink&quot; title=&quot;前奏&quot;&gt;&lt;/a&gt;前奏&lt;/h2&gt;&lt;p&gt;前些日子，其实就是咱考完教师证（10.31）的第二天，便要前往出差。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.yunyoujun.cn/diary/try-to-become-a-teacher/&quot;&gt;关于我打算当老师并报考教师资格证这件事&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;晚间也成功地错过了万圣节。但想来这种现充的节日，也本就与我无缘。故也无从惋惜。&lt;/p&gt;
+&lt;p&gt;尽管是流水账，但勉强作为日记记录下来，以作为引入正题的前言。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「&lt;a href=&quot;https://movie.douban.com/subject/26935251/&quot;&gt;春宵苦短，少女前进吧！&lt;/a&gt;」&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="云游的小日记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="爬虫" scheme="https://www.yunyoujun.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="目标检测" scheme="https://www.yunyoujun.cn/tags/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/"/>
+    
+    <category term="脚本" scheme="https://www.yunyoujun.cn/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="朋友" scheme="https://www.yunyoujun.cn/tags/%E6%9C%8B%E5%8F%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从 Vite 与 Vue 开始的 D3 数据可视化之旅</title>
+    <link href="https://www.yunyoujun.cn/posts/vue-d3-demo/"/>
+    <id>https://www.yunyoujun.cn/posts/vue-d3-demo/</id>
+    <published>2020-11-21T11:56:09.000Z</published>
+    <updated>2020-11-21T11:56:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这是一个极其简单的并尽可能面向未来的新手教程，它将指导你简单地使用 Vite 启动 Vue 的脚手架，并开始 D3 数据可视化的相关开发。而你无需 Vue 相关的前置使用知识，你只需跟随教程简单地使用它。&lt;br&gt;在课后如果你仍有兴趣，那么你可以继续地深入了解它。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;「简单」是不是用的太多了&lt;/del&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小教程" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Vue" scheme="https://www.yunyoujun.cn/tags/Vue/"/>
+    
+    <category term="Vite" scheme="https://www.yunyoujun.cn/tags/Vite/"/>
+    
+    <category term="D3" scheme="https://www.yunyoujun.cn/tags/D3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写写高斯模糊——从 CSS 模糊滤镜的白边说起</title>
+    <link href="https://www.yunyoujun.cn/posts/gaussian-blur-for-image/"/>
+    <id>https://www.yunyoujun.cn/posts/gaussian-blur-for-image/</id>
+    <published>2020-10-18T14:04:45.000Z</published>
+    <updated>2020-10-22T14:04:45.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;通常我们可以很容易地使用 PhotoShop 中的「高斯模糊」来模糊图片。&lt;/p&gt;
+&lt;p&gt;这也是一种很好的艺术效果，苹果惯用的毛玻璃效果本质便是高斯模糊，而我们将图片模糊后作为网站背景，既减小了图片的体积，也能别有一番风味。（譬如咱站点的背景也是高斯模糊后的产物。）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upyun.yunyoujun.cn/images/photoshop-gaussian-blur.jpg&quot; alt=&quot;Gaussian Blur | Photoshop&quot;&gt;&lt;/p&gt;
+&lt;p&gt;而 CSS3 提供了滤镜 &lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter&quot;&gt;filter&lt;/a&gt;/&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/CSS/backdrop-filter&quot;&gt;backdrop-filter&lt;/a&gt;，其中的模糊功能同样也是高斯模糊。（Canvas 中的 &lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/filter&quot;&gt;filter&lt;/a&gt; 亦是如此。）&lt;/p&gt;
+&lt;p&gt;只是当我们为图片背景添加 CSS 滤镜时，便会出现不和谐的白边。&lt;/p&gt;
+&lt;p&gt;虽然有一些奇技淫巧（比如放大图片再截去模糊的边）去解决，但皆治标不治本，我们不妨借此机会探究一下高斯模糊，并尝试自己实现它。&lt;/p&gt;
+&lt;p&gt;正文&lt;strong&gt;多图预警&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小笔记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="CSS" scheme="https://www.yunyoujun.cn/tags/CSS/"/>
+    
+    <category term="Canvas" scheme="https://www.yunyoujun.cn/tags/Canvas/"/>
+    
+    <category term="高斯模糊" scheme="https://www.yunyoujun.cn/tags/%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何从 Valine 迁移至 Disqus</title>
+    <link href="https://www.yunyoujun.cn/posts/migrate-from-valine-to-disqus/"/>
+    <id>https://www.yunyoujun.cn/posts/migrate-from-valine-to-disqus/</id>
+    <published>2020-10-03T07:09:13.000Z</published>
+    <updated>2020-10-06T07:09:13.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;此前我在 &lt;a href=&quot;https://www.yunyoujun.cn/share/third-party-comment-system/&quot;&gt;第三方评论系统之我见&lt;/a&gt; 中简要对比了使用过的一些评论系统，但仍旧没有得出一个尽善尽美的方案。&lt;/p&gt;
+&lt;p&gt;我很长一段时间评论系统都是使用的 Valine，但因为后来博客第一次收到了一些&lt;a href=&quot;https://twitter.com/YunYouJun/status/1310547458997415936&quot;&gt;不友好的评论&lt;/a&gt;，以至于我有一瞬间地冲动想要从 Valine 彻底迁移到 Disqus。&lt;/p&gt;
+&lt;p&gt;但是 Valine 本身加载速度确实很快，用着也挺好，且文章的访问量统计也依赖于此。又实在没有办法下定决心切换至 Disqus。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「任何可以用 JavaScript 编写的应用程序最终都将用 JavaScript 编写。」&lt;br&gt;In 2007, Jeff Atwood made the quote that was popularly referred to as Atwood’s Law: “Any application that can be written in JavaScript, will eventually be written in JavaScript.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;看到许多小伙伴们最终都选择了 Disqus。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;任何带有评论系统的独立博客最终都将使用 Disqus 评论。&lt;br&gt;——我瞎说的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也许终有一天，我确实会彻底从 Valine 切换至 Disqus，那么过去大家留下的评论便就此抛弃吗？又着实有些不忍心。&lt;/p&gt;
+&lt;p&gt;若能将 Valine 中的评论导出并很方便地将其导入 Disqus，那么在决定切换至 Disqus 之前，我都可以放心地使用 Valine。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upyun.yunyoujun.cn/images/make-one-for-me-too.jpg&quot; alt=&quot;给我也整一个！&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小笔记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Disqus" scheme="https://www.yunyoujun.cn/tags/Disqus/"/>
+    
+    <category term="Valine" scheme="https://www.yunyoujun.cn/tags/Valine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ADV 游戏引擎计划</title>
+    <link href="https://www.yunyoujun.cn/posts/make-an-avg-engine/"/>
+    <id>https://www.yunyoujun.cn/posts/make-an-avg-engine/</id>
+    <published>2020-09-28T11:33:17.000Z</published>
+    <updated>2020-09-28T11:33:17.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;ADV.JS 又一个遥遥无期的大坑。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/advjs&quot;&gt;https://github.com/YunYouJun/advjs&lt;/a&gt;&lt;br&gt;Demo: &lt;a href=&quot;https://advjs.elpsy.cn/&quot;&gt;https://advjs.elpsy.cn&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;按照惯例，开坑前先来三问。是什么？为什么？怎么做？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小项目" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="前端" scheme="https://www.yunyoujun.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://www.yunyoujun.cn/tags/Vue/"/>
+    
+    <category term="ADV" scheme="https://www.yunyoujun.cn/tags/ADV/"/>
+    
+    <category term="AVG" scheme="https://www.yunyoujun.cn/tags/AVG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我与小镇与家</title>
+    <link href="https://www.yunyoujun.cn/essay/i-and-town-and-home/"/>
+    <id>https://www.yunyoujun.cn/essay/i-and-town-and-home/</id>
+    <published>2020-08-14T22:00:00.000Z</published>
+    <updated>2020-09-05T21:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;2013-05-14&lt;br&gt;今日一位同学过生日，收到了很多礼物。想一想，要是我的话，也没有同学会知道我的生日吧。就像我也不知道他们的生日。&lt;br&gt;—— 我的一位朋友的青春&lt;del&gt;疼痛（中二）&lt;/del&gt;日记&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;正如标题，我决定在鄙人生日这天（&lt;del&gt;实为早便想写，却拖到现今，甚至于鸽了自己&lt;/del&gt;），写一写自己与我生活的小镇与我的家，并试图回首 23 年与之相伴的人生，揣度未来。&lt;/p&gt;
+&lt;p&gt;但到真强逼着自己去写时，反倒无感而发，一停下来，便又浮想联翩。所以最终估摸也只是毫无章法的碎碎念。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小随笔" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="回忆" scheme="https://www.yunyoujun.cn/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+    <category term="小镇" scheme="https://www.yunyoujun.cn/tags/%E5%B0%8F%E9%95%87/"/>
+    
+    <category term="家" scheme="https://www.yunyoujun.cn/tags/%E5%AE%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-theme-yun 制作笔记</title>
+    <link href="https://www.yunyoujun.cn/note/make-hexo-theme-yun/"/>
+    <id>https://www.yunyoujun.cn/note/make-hexo-theme-yun/</id>
+    <published>2019-04-27T04:00:00.000Z</published>
+    <updated>2020-09-01T12:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Hexo-Theme-Yun 绝赞开发中~&lt;/p&gt;
+&lt;!-- ![GitHub stars](https://img.shields.io/github/stars/YunYouJun/hexo-theme-yun?style=social) --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/hexo-theme-yun&quot;&gt;https://github.com/YunYouJun/hexo-theme-yun&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docs: &lt;a href=&quot;https://yun.yunyoujun.cn/&quot;&gt;https://yun.yunyoujun.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Example: &lt;a href=&quot;https://www.yunyoujun.cn/&quot;&gt;https://www.yunyoujun.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PV: &lt;a href=&quot;https://www.bilibili.com/video/BV17t4y1S7tz&quot;&gt;Strato - Hexo 主题「Yun」版本宣传 PV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;还在用 &lt;code&gt;WordPress&lt;/code&gt; 的时候，总是喜新厌旧，经常换主题。且装了一堆插件，速度慢还容易崩。&lt;br&gt;而迁移到 &lt;code&gt;Hexo&lt;/code&gt; 之后（小水管服务器太慢，拿去挂 MC 了。&lt;del&gt;根本原因是没钱&lt;/del&gt;），光是 &lt;code&gt;hexo-theme-next&lt;/code&gt; 的配置项，便让我花了好一番功夫。&lt;br&gt;导致觉得自己不一直用下去，感到十分对不起仔细一个一个配置过来的自己。&lt;/p&gt;
+&lt;p&gt;当然，还是改不了喜新厌旧的毛病。加之 next 主题过于广泛，显得自己泯然众人。心中颇有愤懑。（&lt;del&gt;虽然本就如此&lt;/del&gt;）&lt;/p&gt;
+&lt;p&gt;而如今，诸事已毕，终于腾出空来。&lt;br&gt;便决定开发一款属于自己的主题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小笔记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="分享" scheme="https://www.yunyoujun.cn/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="笔记" scheme="https://www.yunyoujun.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="项目" scheme="https://www.yunyoujun.cn/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="GitHub" scheme="https://www.yunyoujun.cn/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Strato - Hexo 主题「Yun」版本宣传 PV</title>
+    <link href="https://www.yunyoujun.cn/share/hexo-theme-yun-strato/"/>
+    <id>https://www.yunyoujun.cn/share/hexo-theme-yun-strato/</id>
+    <published>2020-08-28T14:00:00.000Z</published>
+    <updated>2020-08-28T14:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;为主题 &lt;a href=&quot;https://github.com/YunYouJun/hexo-theme-yun&quot;&gt;hexo-theme-yun&lt;/a&gt; v1.0 Strato 做的宣传 PV ～（&lt;del&gt;也许是第一个有 PV 的 Hexo 主题？&lt;/del&gt;）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;谢谢你喜欢我的主题！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当我第一次听说要做主题的宣传 PV 我是拒绝的，因为，不能你让我发 1.0，我就马上去发，第一我要试一下，因为我不愿意做完了以后再加一些特技上去，主题 Duang 一下，很亮、很柔，这样用户一定会骂我，根本没有这样的主题，就证明上面那个是假的。&lt;/p&gt;
+&lt;p&gt;后来我也不断在修 BUG，我自己用了大概一年左右，感觉还不错，后来我在做 PV 的时候也尽量不加特技，因为我要让用户看到，我用完之后是这个样子，你们用完之后也会是这个样子！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小安利" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E5%AE%89%E5%88%A9/"/>
+    
+    
+    <category term="分享" scheme="https://www.yunyoujun.cn/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="Hexo" scheme="https://www.yunyoujun.cn/tags/Hexo/"/>
+    
+    <category term="主题" scheme="https://www.yunyoujun.cn/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>el-bot &amp; mirai-ts 制作笔记</title>
+    <link href="https://www.yunyoujun.cn/note/make-el-bot/"/>
+    <id>https://www.yunyoujun.cn/note/make-el-bot/</id>
+    <published>2020-06-21T18:16:53.000Z</published>
+    <updated>2020-08-20T12:16:53.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/YunYouJun/mirai-ts&quot;&gt;mirai-ts&lt;/a&gt; 是 &lt;a href=&quot;https://github.com/mamoe/mirai-api-http&quot;&gt;mirai-api-http&lt;/a&gt; 的 TypeScript/JavaScript SDK。&lt;br&gt;&lt;a href=&quot;https://github.com/ElpsyCN/el-bot&quot;&gt;el-bot&lt;/a&gt; 是一个基于 &lt;a href=&quot;https://github.com/YunYouJun/mirai-ts&quot;&gt;mirai-ts&lt;/a&gt; 使用 TypeScript/JavaScript 编写，可配置、可自定义插件的 QQ 机器人。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/mirai-ts&quot;&gt;mirai-ts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/ElpsyCN/el-bot&quot;&gt;el-bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docs: &lt;a href=&quot;https://yunyoujun.cn/mirai-ts/&quot;&gt;mirai-ts API 文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docs: &lt;a href=&quot;https://docs.bot.elpsy.cn/&quot;&gt;el-bot 文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;el-bot 展示了整个 mirai-ts 的使用流程，并内置了一些如自动应答、转发、命令行、RSS 等常用功能（默认插件），开箱即用。&lt;br&gt;你只需要一些自定义的配置，而不再需要编写繁琐的脚本内容。&lt;br&gt;但这并不是束缚，在插件系统中你仍然可以调用机器人所有的上下文，并通过编写插件的形式快速实现你想要的功能。&lt;/p&gt;
+&lt;p&gt;照例只是非正经开发日志的历程记录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小笔记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="分享" scheme="https://www.yunyoujun.cn/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="笔记" scheme="https://www.yunyoujun.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="项目" scheme="https://www.yunyoujun.cn/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="GitHub" scheme="https://www.yunyoujun.cn/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第三方评论系统之我见</title>
+    <link href="https://www.yunyoujun.cn/share/third-party-comment-system/"/>
+    <id>https://www.yunyoujun.cn/share/third-party-comment-system/</id>
+    <published>2020-05-17T05:30:40.000Z</published>
+    <updated>2020-08-08T05:30:40.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;静态博客纵有万般好，但不得不承认其常常需要很多奇技淫巧，方能实现&lt;del&gt;甚至无法实现&lt;/del&gt;动态网站仅需数行代码便可实现的功能。&lt;/p&gt;
+&lt;p&gt;评论系统便是其代表之一。&lt;/p&gt;
+&lt;p&gt;我尝试过数种第三方评论系统（Disqus/Gitalk/Valine/LiveRe(来必力)/畅言），并在其中反复横跳，丢失了不少可爱的评论，也很遗憾未能找到一款真正百无挑剔的评论系统。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个事物的发展往往是一个波浪式前进、循环往复式上升的过程。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我将简单对我使用过的评论系统之利弊进行对比分析（可能包含许多个人色彩），以便各位看官参考。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小分享" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Disqus" scheme="https://www.yunyoujun.cn/tags/Disqus/"/>
+    
+    <category term="Valine" scheme="https://www.yunyoujun.cn/tags/Valine/"/>
+    
+    <category term="评测" scheme="https://www.yunyoujun.cn/tags/%E8%AF%84%E6%B5%8B/"/>
+    
+    <category term="Gitalk" scheme="https://www.yunyoujun.cn/tags/Gitalk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>导出「你的日记」与导入「一本日记」</title>
+    <link href="https://www.yunyoujun.cn/note/export-nideriji-and-import-1diary/"/>
+    <id>https://www.yunyoujun.cn/note/export-nideriji-and-import-1diary/</id>
+    <published>2019-01-31T08:38:03.000Z</published>
+    <updated>2020-08-05T08:38:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;因为「你的日记」开发不是很活跃，且经常出现无法连接等 BUG，而本身也未提供导出功能，所以我写了该&lt;a href=&quot;https://github.com/YunYouJun/export-nideriji/archive/master.zip&quot;&gt;工具&lt;/a&gt;用于迁移至其他日记软件。&lt;br&gt;此外因为我之后选择的是「一本日记」，所以也可以转换为「一本日记」的数据格式用于导入。&lt;br&gt;我自己也已经成功迁移，所以该项目不会再维护，但如果你也有此需要，希望能对你有所帮助。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/YunYouJun/export-nideriji&quot;&gt;export-nideriji&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;具体使用方法见项目地址 README。&lt;/p&gt;
+&lt;p&gt;原本我是想记录下整个导出思路的具体过程，然后跑去写脚本，打算写好再把文章补完，自己用完就咕咕咕了。&lt;/p&gt;
+&lt;p&gt;所以这里大概只是一半的内容，阁下需要的话直接使用即可，文章应该也就此不会再更新了，&lt;/p&gt;
+&lt;p&gt;差不多 2019 年 2 月便干了这事，今天终于决定彻底卸载。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小笔记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://www.yunyoujun.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>教你如何从零开始搭建一个属于自己的网站</title>
+    <link href="https://www.yunyoujun.cn/share/how-to-build-your-site/"/>
+    <id>https://www.yunyoujun.cn/share/how-to-build-your-site/</id>
+    <published>2020-03-04T17:31:08.000Z</published>
+    <updated>2020-07-14T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;写给想要拥有一个自己的网站但没有资金成本的小白与曾经的自己。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;虽说是网站，对于个人来说，或许一般叫作博客。&lt;br&gt;但我不希望它仅仅是一个博客，而是能够成为一个处于自己现实生活之外、自由、实验、不用畏惧他人眼光甚至可以独断专行的地方。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小安利" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E5%AE%89%E5%88%A9/"/>
+    
+    
+    <category term="教程" scheme="https://www.yunyoujun.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="分享" scheme="https://www.yunyoujun.cn/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="Hexo" scheme="https://www.yunyoujun.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YunYouJun/give-me-money</title>
+    <link href="https://www.yunyoujun.cn/posts/give-me-money/"/>
+    <id>https://www.yunyoujun.cn/posts/give-me-money/</id>
+    <published>2017-12-26T10:22:28.000Z</published>
+    <updated>2020-04-14T10:22:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;一个沙雕钓鱼网站&quot;&gt;&lt;a href=&quot;#一个沙雕钓鱼网站&quot; class=&quot;headerlink&quot; title=&quot;一个沙雕钓鱼网站&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://yunyoujun.cn/give-me-money/&quot;&gt;一个沙雕钓鱼网站&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;该项目&lt;strong&gt;仅作娱乐&lt;/strong&gt;，博君一笑，您&lt;strong&gt;无须填写任何相关真实信息&lt;/strong&gt;。&lt;br&gt;如果您不能理解笑点，不必强求。（网页声音预警，以防社会性死亡。）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;这是自己几年前 Parcel 刚出的时候，写&lt;a href=&quot;https://yunyoujun.cn/note/vue-parcel-demo/&quot;&gt;「Parcel.js + Vue 搭建笔记」&lt;/a&gt;，拿来练手的小玩意儿。&lt;br&gt;所以代码很丑，也没做啥后端校验。 因为之前 API 次数被人恶意刷完了，所以重置了数据，现在加了邮箱验证才能提交。&lt;/p&gt;
+&lt;p&gt;大家乐呵乐呵完事了，我本身也是白嫖的 &lt;a href=&quot;https://www.leancloud.cn/&quot;&gt;LeanCloud&lt;/a&gt; 的开发版，刷数据最多也就到 LeanCloud 的每日上限。&lt;/p&gt;
+&lt;p&gt;如果你真的心动，并想要打钱，可以考虑捐给 &lt;a href=&quot;https://www.unicef.cn/&quot;&gt;联合国儿童基金会&lt;/a&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="云游的小项目" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="分享" scheme="https://www.yunyoujun.cn/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="GitHub" scheme="https://www.yunyoujun.cn/tags/GitHub/"/>
+    
+    <category term="沙雕" scheme="https://www.yunyoujun.cn/tags/%E6%B2%99%E9%9B%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人生不是一场马拉松</title>
+    <link href="https://www.yunyoujun.cn/diary/life-is-not-a-marathon/"/>
+    <id>https://www.yunyoujun.cn/diary/life-is-not-a-marathon/</id>
+    <published>2020-04-04T06:59:58.000Z</published>
+    <updated>2020-04-04T06:59:58.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;今天也继续跑着，每个人都是跑者，时钟无法暂停，时间往前不停流逝，这是一场不能回头的马拉松比赛。&lt;br&gt;边跟对手竞争着，边在时间洪流这条直路上跑着，想比别人跑得更快，相信前方有美好未来，相信一定有终点，人生是一场马拉松。&lt;br&gt;……&lt;br&gt;但真是如此吗？&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="云游的小日记" scheme="https://www.yunyoujun.cn/categories/%E4%BA%91%E6%B8%B8%E7%9A%84%E5%B0%8F%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="随笔" scheme="https://www.yunyoujun.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="日记" scheme="https://www.yunyoujun.cn/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
